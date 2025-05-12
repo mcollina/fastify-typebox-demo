@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "tsc"
+    "test": "tsc",
+    "start": "node --experimental-strip-types server.ts"
   },
   "repository": {
     "type": "git",
