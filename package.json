@@ -1,0 +1,28 @@
+{
+  "name": "fastify-typebox-demo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/fastify-typebox-demo.git"
+  },
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/fastify-typebox-demo/issues"
+  },
+  "homepage": "https://github.com/mcollina/fastify-typebox-demo#readme",
+  "dependencies": {
+    "@fastify/type-provider-typebox": "^5.1.0",
+    "fastify": "^5.3.2"
+  },
+  "devDependencies": {
+    "fastify-tsconfig": "^3.0.0",
+    "typescript": "^5.8.3"
+  }
+}
